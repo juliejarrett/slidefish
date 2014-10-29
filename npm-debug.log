@@ -31,27 +31,27 @@
 15 silly addNameRange { name: 'express-generator', range: '*', hasData: false }
 16 verbose request where is /express-generator
 17 verbose request registry https://registry.npmjs.org/
-18 verbose request id 33ce87a32f386553
+18 verbose request id cb0cc7d2c26207a4
 19 verbose url raw /express-generator
 20 verbose url resolving [ 'https://registry.npmjs.org/', './express-generator' ]
 21 verbose url resolved https://registry.npmjs.org/express-generator
 22 verbose request where is https://registry.npmjs.org/express-generator
-23 info trying registry request attempt 1 at 21:44:27
+23 info trying registry request attempt 1 at 11:29:02
 24 verbose etag "D8MAOBCOVFO78JBUQNLK8DEX0"
 25 http GET https://registry.npmjs.org/express-generator
 26 http 304 https://registry.npmjs.org/express-generator
 27 silly registry.get cb [ 304,
-27 silly registry.get   { date: 'Wed, 29 Oct 2014 01:44:29 GMT',
+27 silly registry.get   { date: 'Wed, 29 Oct 2014 15:29:03 GMT',
 27 silly registry.get     server: 'Apache',
 27 silly registry.get     via: '1.1 varnish',
-27 silly registry.get     'last-modified': 'Wed, 29 Oct 2014 01:44:29 GMT',
+27 silly registry.get     'last-modified': 'Wed, 29 Oct 2014 15:29:03 GMT',
 27 silly registry.get     'cache-control': 'max-age=60',
 27 silly registry.get     etag: '"D8MAOBCOVFO78JBUQNLK8DEX0"',
-27 silly registry.get     age: '0',
-27 silly registry.get     'x-served-by': 'cache-jfk1021-JFK',
+27 silly registry.get     age: '4',
+27 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
 27 silly registry.get     'x-cache': 'HIT',
 27 silly registry.get     'x-cache-hits': '1',
-27 silly registry.get     'x-timer': 'S1414547069.215643,VS0,VE75',
+27 silly registry.get     'x-timer': 'S1414596543.605470,VS0,VE0',
 27 silly registry.get     vary: 'Accept',
 27 silly registry.get     'content-length': '0',
 27 silly registry.get     connection: 'close' } ]
@@ -139,7 +139,7 @@
 50 error Please try running this command again as root/Administrator.
 51 error System Darwin 13.3.0
 52 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "express-generator"
-53 error cwd /Users/JJ/Github
+53 error cwd /Users/JJ/Git
 54 error node -v v0.13.0-pre
 55 error npm -v 1.4.28
 56 error path /usr/local/lib/node_modules/express-generator
