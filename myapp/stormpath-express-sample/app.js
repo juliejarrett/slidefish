@@ -1,9 +1,15 @@
 var express = require('express');
 var path = require('path');
-var favicon = require('serve-favicon');
+var favicon = require('static-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+
+// These are the new imports we're adding:
+var passport = require('passport');
+var StormpathStrategy = require('passport-stormpath');
+var session = require('express-session');
+var flash = require('connect-flash');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
