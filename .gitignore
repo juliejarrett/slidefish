@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /GIT-BUILD-OPTIONS
 /GIT-CFLAGS
 /GIT-LDFLAGS
@@ -247,3 +248,15 @@
 *.pdb
 /Debug/
 /Release/
+=======
+_site/*
+_theme_packages/*
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+>>>>>>> 8a40d956efd7ec3f0f28c2dbfe03e47b6a120c81
